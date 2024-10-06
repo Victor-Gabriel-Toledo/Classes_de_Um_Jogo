@@ -30,7 +30,7 @@ class hero{
             return
         }
 
-        return `O ${this.type} atacou usando ${attackType}`
+        return `The ${this.type} attacked using ${attackType}`
     }
 }
 //nova instância
