@@ -34,7 +34,7 @@ class hero{
     }
 }
 //nova instância
-let typeHero = new hero("VG", 19, "guerreiro")
+let typeHero = new hero("VG", 19, "warrior")
 
 //messagem de saída
 console.log(typeHero.attack())
