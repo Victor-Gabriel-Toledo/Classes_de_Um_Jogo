@@ -9,16 +9,16 @@ class hero{
     attack(){
         let attackType
 
-        if(this.type === "guerreiro"){
-            attackType = "espada"
+        if(this.type === "warrior"){
+            attackType = "sword"
         }
 
-        else if(this.type === "mago"){
-            attackType = "magia"
+        else if(this.type === "wizard"){
+            attackType = "magic"
         }
 
-        else if (this.type === "monge"){
-            attackType = "artes marciais"
+        else if (this.type === "monk"){
+            attackType = "martial arts"
         }
 
         else if(this.type === "ninja"){
